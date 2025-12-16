@@ -16,6 +16,7 @@ public class StudentService {
 
     public void getVoidMethod(){
         System.out.println("I am form get method!");
+        System.out.println("I am form get method!");
     }
     public Iterable<Student> getAllStudents(){
         return repository.findAll();
