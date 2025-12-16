@@ -31,5 +31,7 @@ public class Student {
 
     private String malli;
 
+    private String subject;
+
 
 }
