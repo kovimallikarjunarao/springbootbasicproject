@@ -13,6 +13,10 @@ public class StudentService {
     public Student saveStudent(Student student){
         return repository.save(student);
     }
+
+    public void getVoidMethod(){
+        System.out.println("I am form get method!");
+    }
     public Iterable<Student> getAllStudents(){
         int x=0;
         return repository.findAll();
