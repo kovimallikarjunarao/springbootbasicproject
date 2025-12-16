@@ -27,7 +27,9 @@ public class Student {
     @Setter
     private String course;
 
-    @Setter
+    private String vijay;
+
     private String malli;
+
 
 }
