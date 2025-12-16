@@ -14,6 +14,7 @@ public class StudentService {
         return repository.save(student);
     }
     public Iterable<Student> getAllStudents(){
+        int x=0;
         return repository.findAll();
     }
 }
