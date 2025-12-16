@@ -19,6 +19,7 @@ public class StudentService {
         System.out.println("I am form get method!");
     }
     public Iterable<Student> getAllStudents(){
+        int x=0;
         return repository.findAll();
     }
 }
